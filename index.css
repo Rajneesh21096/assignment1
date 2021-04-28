@@ -1,0 +1,280 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bold{
+    font-weight: bold;
+}
+.small{
+    font-size: 0.7em;
+}
+.large{
+    font-size: 1.2em;
+}
+.image{
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    position: sticky;
+    top: 0%;
+    width: 65%;
+    margin-left: 19.4%;
+    background-color: #FFF;
+    line-height: 200%;
+}
+
+.logo {
+
+    display: flex;
+    width: 50%;
+
+}
+
+
+.nav-list{
+   
+   display: flex;
+   width: 50%;
+   justify-content: flex-end;   
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 1% 2%;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+
+}
+
+.nav-list li a:hover{
+
+    text-decoration: underline;
+
+
+}
+
+.Image_Section {
+    width: 65%;
+    margin-left: 19.4%;
+}
+
+.leftright1{
+    width: 65%;
+    margin-left: 19.4%;
+    display: flex;
+}
+
+.left1{
+    display: flex;
+    width: 60%;
+    padding: 1%;
+}
+.right1 {
+    display: flex;
+    width: 40%;
+    padding: 1%;
+}
+
+.desktop {
+    width: 60%;
+    margin-left: 37%;
+}
+
+.leftright1 {
+    width: 65%;
+    margin-left: 19.4%;
+    display: flex;
+   
+}
+
+.left1 {
+ 
+    width: 60%;
+    padding: 1%;
+    display: flex;
+   
+}.right1 {
+    display: flex;
+    width: 60%;
+    padding: 1%;
+   
+}
+
+.mtop2 {
+    margin-top: 10%;
+}
+
+.leftright2 {
+    width: 65%;
+    margin-left: 19.4%;
+    display: flex;
+   
+}
+
+.left2 {
+ 
+    width: 60%;
+    padding: 1%;
+    display: flex;
+   
+}
+.middle2 {
+ 
+    width: 60%;
+    padding: 1%;
+    display: flex;
+   
+}
+
+.right2 {
+    width: 60%;
+    padding: 1%;
+    display: flex;
+   
+}
+
+.leadership1 {
+    width: 70%;
+
+}
+.leadership2 {
+    width: 70%;
+    margin-left: 15%;
+}
+.leadership3 {
+    width: 70%;
+    margin-left: 20%;
+}
+
+.linehite{
+    line-height: 80%;
+}
+
+.leftright3 {
+    width: 65%;
+    margin-left: 19.4%;
+    display: flex;
+   
+}
+
+.left3 {
+ 
+    width: 60%;
+    padding: 1%;
+    display: flex;
+   
+}.right3 {
+    display: flex;
+    width: 60%;
+    padding: 1%;
+   
+}
+
+.mglft{
+    margin-left: 10%;
+}
+.ppl1 {
+    width: 100%;
+    margin-left: 0%;
+}
+.ppl2 {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.leftright4 {
+    width: 65%;
+    margin-left: 19.4%;
+    display: flex;
+   
+}
+
+.left4 {
+ 
+    width: 100%;
+    padding: 1%;
+    display: flex;
+   
+}.right4 {
+    display: flex;
+    width: 40%;
+    padding: 1%;
+   
+}
+.contackt {
+    width: 50%;
+    margin-left: 50%;
+}
+.btn{
+    padding:1%;
+    margin: 7px 3px;
+    border: 2px solid gray;
+    font-size: 16px;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+}
+.leftright5 {
+    width: 65%;
+    margin-left: 19.4%;
+    display: flex;
+    background-color: #000;
+   
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5px;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: #000;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 771px) and (orientation:portrait){ 
+    
+  
+
+    .nav-list {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+
+    .burger{
+        display: block;
+
+    }
+    .h_nave{
+        height: 72px;
+    }
+    .v_class{
+        opacity: 0%;
+    }
+      /*------------------------------Iphone-----------------------------------*/
+    
+
+    
+    
+    
+    }
+    
